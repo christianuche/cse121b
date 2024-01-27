@@ -25,8 +25,12 @@ const favFoods = ['Rice and Stew', 'Egusi and Semovita', 'Akara and Bread',
 'Irish Potato'];
 const singleFavoriteFood = 'Afang Soup';
 favFoods.push(singleFavoriteFood);
+
 foodElement.innerHTML += favFoods.join('<br>');
 favFoods.shift();
+
 foodElement.innerHTML += `<br>${favFoods.join('<br>')}`;
 favFoods.pop();
+
 foodElement.innerHTML += `<br>${favFoods.join('<br>')}`;
+
