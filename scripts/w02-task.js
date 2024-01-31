@@ -22,7 +22,7 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 4 - Array */
 const favFoods = ['Rice and Stew', 'Egusi and Semovita', 'Akara and Bread',
-'Irish Potato'];
+'Irish Potatoes'];
 const singleFavoriteFood = 'Afang Soup';
 favFoods.push(singleFavoriteFood);
 
